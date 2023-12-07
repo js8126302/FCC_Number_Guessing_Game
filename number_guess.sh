@@ -62,6 +62,8 @@ MINIMUM=$((PSQL_BEST_GAME == 0 || NUMBER_OF_GUESSES < PSQL_BEST_GAME ? NUMBER_OF
 $PSQL "UPDATE users SET games_played=($PSQL_GAMES_PLAYED + 1),  best_game = $MINIMUM WHERE username='$USERNAME'" >/dev/null
 exit
 # comment one
-#commit two
+# commit two
+# commit three
+
 
 
